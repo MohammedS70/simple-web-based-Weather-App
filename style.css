@@ -1,0 +1,92 @@
+body{
+    background-image: url("/image/pexels-pixabay-326055.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    
+}
+#btn{
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+/* #btn:hover{
+    background-color: #45a049;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+
+}
+#btn:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} */
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: rgba(7, 33, 66, 0.8);
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+}
+/* input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 12px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color:black;
+
+} */
+#result{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#clear{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ffd43b;
+    box-sizing: border-box;
+    border-radius: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #0a58ca;
+    color: #ffd43b;
+}
+#clear:hover{
+    background-color: #0a58ca;
+    color: #ffd43b;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
